@@ -1,0 +1,12 @@
+<div class="side">
+    <a 
+        *ngFor="let sideNav of sideNavLinks"
+        [routerLink]="sideNav.route"
+        class="side__link"
+    >
+    <span class="side__icon">
+        <i class="{{sideNav.icon}}"></i>
+    </span>
+    {{ sideNav.name }}
+</a>
+</div>

@@ -1,0 +1,28 @@
+.side {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: left;
+
+    &__link {
+        padding: 0.5em 1.5em 0.5em 0.7em;
+        margin: 0.3em;
+        text-decoration: none;
+        font-size: 1.4rem;
+        width: 50%;
+        color: white;
+        line-height: 1.3125;
+        font-family: "Sergoe UI", Roboto, Ubuntu, "Helvetica Neue";
+
+        &:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: calc(150px /2);
+            color: rgba(29, 161, 242, 1);
+            
+        }
+    }
+
+    &__icon {
+        margin-right: 10px;
+    }
+}
